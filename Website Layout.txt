@@ -1,0 +1,19 @@
+Website layout
+
+Website
+|- Home
+   |
+   |- Nav bar
+   |- Intro / bio
+   |- ??? projects ???
+|
+|- About
+   |
+   |- Nav bar
+   |- More extensive bio
+|
+|- Projects
+   |
+   |- Nav bar
+   |- Past projects (expandable tabs?)
+   |- links to github & itch.io

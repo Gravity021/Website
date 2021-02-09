@@ -1,7 +1,9 @@
+/* Predefined areas */
 h1 {
     color: rgb(255, 0, 0)
 }
 
+/* Custom classes */
 .navigation {
     text-align: center;
 }
@@ -13,9 +15,9 @@ h1 {
     border-radius: 5px;
 }
 
-/* .footer {
-    align-self: center;
-} */
+.footer {
+    text-align: center;
+}
 
 .button {
     text-align: center;
@@ -28,4 +30,9 @@ h1 {
 
 .button:hover {
     background-color: rgb(150, 150, 150);
+}
+
+.plain_link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
