@@ -7,6 +7,10 @@ def home():
     # return "Welcome to the home page"
     return flask.render_template("home.html")
 
+@app.route("/about")
+def about():
+    return flask.render_template("about.html")
+
 @app.route("/error_testing")
 def error_testing():
     return "", 304
