@@ -1,0 +1,38 @@
+/* Predefined areas */
+h1 {
+    color: rgb(255, 0, 0)
+}
+
+/* Custom classes */
+.navigation {
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(175, 175, 175);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    align-self: center;
+    background-color: rgb(175, 175, 175);
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+.plain_link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

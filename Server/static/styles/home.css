@@ -1,0 +1,18 @@
+/* Custom classes */
+.bio {
+    align-self: center;
+    background-color: rgb(255, 255, 0);
+}
+
+a.button {
+    text-align: center;
+    /* align-self: center; */
+    background-color: rgb(175, 175, 175);
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+a.button:hover {
+    background-color: rgb(150, 150, 150);
+}
