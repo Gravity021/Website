@@ -1,6 +1,10 @@
 /* Predefined areas */
 h1 {
-    color: rgb(255, 0, 0)
+    color: #F132BE;
+}
+
+img {
+    border-radius: 5px;
 }
 
 /* Custom classes */
@@ -9,27 +13,43 @@ h1 {
 }
 
 .navbar {
-    background-color: rgb(175, 175, 175);
+    background-color: #F1303E;
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 5px;
+}
+
+a.button {
+    text-align: center;
+    background-color: #F1303E;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+a.button:hover {
+    background-color: rgb(150, 150, 150);
 }
 
 .footer {
     text-align: center;
 }
 
-.button {
+.footer a.button {
     text-align: center;
-    align-self: center;
-    background-color: rgb(175, 175, 175);
-    border-radius: 2px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
     padding: 5px;
     width: 100px;
 }
 
-.button:hover {
-    background-color: rgb(150, 150, 150);
+.footer a.button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.footer .plain_link {
+    color: rgb(125, 125, 125);
+    text-decoration: none;
 }
 
 .plain_link {

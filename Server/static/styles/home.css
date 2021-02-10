@@ -1,18 +1,23 @@
 /* Custom classes */
 .bio {
-    align-self: center;
-    background-color: rgb(255, 255, 0);
-}
-
-a.button {
-    text-align: center;
     /* align-self: center; */
-    background-color: rgb(175, 175, 175);
-    border-radius: 2px;
-    padding: 5px;
-    width: 100px;
+    text-align: center;
+    background-color: #F1A432;
+    padding: 1px;
+    border-radius: 5px;
 }
 
-a.button:hover {
-    background-color: rgb(150, 150, 150);
+.projects {
+    text-align: center;
+}
+
+.game-logo {
+    /* transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52); */
+    top: 0px;
+}
+
+.game-logo :hover {
+    /* offset: 3px 3px; */
+    /* transform: translate(0px, -5px); */
+    top: -5px;
 }
