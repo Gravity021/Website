@@ -6,43 +6,61 @@
         <title>Hero45678 - Home</title>
 
         <link rel="stylesheet" href="./static/styles/main.css">
-        <link rel="stylesheet" href="./static/styles/home.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <!-- Main body -->
     <body>
         <!-- Navigation bar (top) -->
         <div class="navigation">
-            <h1>Hero45678 - Home</h1>
+            <h1 class="title">Hero45678 - Home</h1>
             <div class="navbar">
-                <p><a href="/" class="button plain_link">Home</a> | <a href="/about" class="button plain_link">About</a></p>
+                <p><a href="/" class="button plain-link">Home</a> | <a href="/about" class="button plain-link">About</a> | <a href="/projects" class="button plain-link">Projects</a></p>
             </div>
         </div>
 
         <!-- Main -->
         <br>
-        
+
         <!-- Mini bio -->
-        <div class="bio">
-            <p>Gamedev, musician and pixel artist<br><br>Making games with pygame and Unity</p>
+        <div class="bio-header">
+            <div class="bio">
+                <p>Gamedev, musician and pixel artist<br><br>Making games with pygame and Unity</p>
+            </div>
         </div>
         
         <br>
 
+        <!-- "Social" links -->
+        <div class="social-links">
+            <div class="social-links-wrap">
+                <a href="hero45678.itch.io"><img src="./static/images/icons/itchio-logo-textless-black.png" class="icon" alt="itch.io link"></a>
+                <a href="github.com/Hero45678"><img src="./static/images/icons/GitHub-Mark-64px.png" class="icon" alt="Github link"></a>
+                <br>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
         <!-- Projects -->
         <div class="projects">
             <div class="game">
-                <a href="https://hero45678.itch.io/that-platfomer">
+                <p class="game-title">That Platformer</p>
+                <div class="game-container">
                     <img src="./static/images/That_Platformer.png" class="game-logo" alt="That Platformer logo">
-                </a>
+                </div>
+                <a href="https://hero45678.itch.io/that-platfomer" class="itch-link">Get the game on itch.io!</a>
             </div>
         </div>
 
         <br>
 
         <!-- Footer -->
-        <div class="footer"><p>
-            <a href="../HTML/home.html" class="button plain_link">Hero45678</a>
-        </p></div>
+        <div class="footer">
+            <a href="/" class="button plain-link">Hero45678</a>
+        </div>
     </body>
 </html>

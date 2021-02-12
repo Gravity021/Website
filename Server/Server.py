@@ -10,9 +10,9 @@ def home():
 def about():
     return flask.render_template("about.html")
 
-@app.route("/error_testing")
-def error_testing():
-    return "", 304
+@app.route("/projects")
+def projects():
+    return flask.render_template("projects.html")
 
 if __name__ == "__main__":
     app.run(
