@@ -92,7 +92,7 @@ a.button:hover {
 }
 
 .itch-link:hover {
-    transform: translate(0px, -20px);
+    transform: translate(0px, -10px);
 }
 
 .icon {
