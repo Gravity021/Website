@@ -1,144 +1,17 @@
 /* Predefined areas */
-h1 {
-    background-color: #9C0000;
-    color: #FF0000;
-    border-radius: 5px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 20px;
-}
-
-img {
-    border-radius: 5px;
-}
-
 body {
-    /* font-family: 'dogica'; */
     font-family: 'Open Sans';
 
     background-color: #00ABAB;
 }
 
 /* Custom classes */
-.navigation {
-    text-align: left;
-}
-
-.navbar {
-    font-size: 17px;
-
-    text-align: right;
-    padding-right: 20px;
-
-    background-color: #A1F100;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 5px;
-}
-
-a.button {
-    text-align: center;
-    background-color: #A1F100;
-    border-radius: 2px;
-    padding: 5px;
-    width: 100px;
-}
-
-a.button:hover {
-    background-color: #619200;
-}
-
-.footer {
-    text-align: center;
-}
-
-.footer a.button {
-    text-align: center;
-    background-color: #00ABAB;
-    border-radius: 3px;
-    padding: 5px;
-    width: 100px;
-}
-
-.footer a.button:hover {
-    background-color: #007B7B;
-}
-
-.footer .plain-link {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.footer .plain-link :hover {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.plain-link {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.itch-link {
-    color: #FFFFFF;
-    text-decoration: none;
-
-    background-color: #fa5c5c;
-    border-radius: 5px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    display: inline-block;
-
-    transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
-}
-
-.itch-link:hover {
-    transform: translate(0px, -10px);
-}
-
-.icon {
-    width: 32px;
-    height: 32px;
-
-    padding-left: 5px;
-    padding-right: 5px;
-
-    transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
-}
-
-.icon:hover {
-    transform: translate(0px, -5px);
-}
-
-.social-links {
-    text-align: center;
-}
-
-.social-links-wrap {
-    display: inline-block;
-    background-color: #00A500;
-    padding: 10px;
-    padding-top: 15px;
-    border-radius: 5px;
-}
-
-.bio-header {
-    text-align: center;
-}
-
 .bio p {
     font-size: 125%;
-
-    display: inline-block;
-    background-color: #00A500;
-    padding: 10px;
-    border-radius: 5px;
 }
 
-.projects {
-    text-align: center;
+.page-description p {
+    font-size: 115%;
 }
 
 .game {

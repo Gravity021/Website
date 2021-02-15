@@ -1,0 +1,43 @@
+a.button {
+    text-align: center;
+    background-color: #A1F100;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+a.button:hover {
+    background-color: #619200;
+}
+
+.plain-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.itch-link {
+    color: #FFFFFF;
+    text-decoration: none;
+
+    background-color: #fa5c5c;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: inline-block;
+
+    transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
+}
+
+.itch-link:hover {
+    transform: translate(0px, -10px);
+}
+
+.social-links-wrap {
+    display: inline-block;
+    background-color: #00A500;
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
