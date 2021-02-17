@@ -1,13 +1,22 @@
+:root {
+    --neon-green: #22ee22ff;
+    --spring-green: #22ee66ff;
+    --medium-spring-green: #22ee99ff;
+    --sea-green-crayola: #22eebbff;
+    --fluorescent-blue: #22eeeeff;
+}
+
 a.button {
     text-align: center;
-    background-color: #09a6f3;
+    background-color: var(--sea-green-crayola);
     border-radius: 2px;
     padding: 5px;
     width: 100px;
+    transition: ease 0.2s;
 }
 
 a.button:hover {
-    background-color: #00ffa9;
+    background-color: var(--fluorescent-blue);
 }
 
 .plain-link {
@@ -36,7 +45,7 @@ a.button:hover {
 
 .social-links-wrap {
     display: inline-block;
-    background-color: #FF2F2F;
+    background-color: var(--spring-green);
     padding: 10px;
     padding-top: 15px;
     border-radius: 5px;

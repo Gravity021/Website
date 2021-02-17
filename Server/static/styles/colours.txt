@@ -53,3 +53,11 @@ https://paletton.com/#uid=4000u0kFwpOmyAa-4ABLOjBTBbF
 .color-complement-0 { color: #029402 }	/* Main Complement color */
 .color-complement-3 { color: #006E00 }
 .color-complement-4 { color: #003800 }
+
+-------------------------------------------------------------------------------
+
+--neon-green: #22ee22ff;
+--spring-green: #22ee66ff;
+--medium-spring-green: #22ee99ff;
+--sea-green-crayola: #22eebbff;
+--fluorescent-blue: #22eeeeff;

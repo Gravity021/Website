@@ -1,8 +1,16 @@
+:root {
+    --neon-green: #22ee22ff;
+    --spring-green: #22ee66ff;
+    --medium-spring-green: #22ee99ff;
+    --sea-green-crayola: #22eebbff;
+    --fluorescent-blue: #22eeeeff;
+}
+
 /* Predefined areas */
 body {
     font-family: 'Open Sans';
 
-    background-color: #00C800;
+    background-color: var(--medium-spring-green);
 
     color: #ffffff;
 }
@@ -18,14 +26,14 @@ body {
 
 .game {
     display: inline-block;
-    background-color: #FF2F2F;
+    background-color: var(--spring-green);
     padding: 10px;
     padding-top: 5px;
     border-radius: 8px;
 }
 
 .game-title {
-    background-color: #00ffff;
+    background-color: var(--neon-green);
     padding: 10px;
     border-radius: 5px;
 

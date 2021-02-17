@@ -1,5 +1,13 @@
+:root {
+    --neon-green: #22ee22ff;
+    --spring-green: #22ee66ff;
+    --medium-spring-green: #22ee99ff;
+    --sea-green-crayola: #22eebbff;
+    --fluorescent-blue: #22eeeeff;
+}
+
 .title {
-    background-color: colour-primary-4;
+    background-color: var(--fluorescent-blue);
     color: #ffffff;
     border-radius: 5px;
     padding-top: 6px;
@@ -17,7 +25,7 @@
     text-align: right;
     padding-right: 20px;
 
-    background-color: #FF2F2F;
+    background-color: var(--sea-green-crayola);
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 5px;
@@ -29,21 +37,41 @@
 
 .description p{
     display: inline-block;
-    background-color: #FF2F2F;
+    background-color: var(--spring-green);
     padding: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 5px;
 }
 
+.game-logo {
+    opacity: 1;
+    transition: ease 0.5s;
+}
+
+.game .game-description {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.game .game-hover:hover > .game-logo {
+    opacity: .5;
+}
+
+.game .game-hover:hover > .game-description {
+    opacity: 1;
+}
+
 .footer a.button {
-    text-align: center;
-    background-color: #00ffd4;
+    background-color: var(--medium-spring-green);
     border-radius: 3px;
-    padding: 5px;
-    width: 100px;
 }
 
 .footer a.button:hover {
-    background-color: #00d4ff;
+    background-color: var(--spring-green);
 }
