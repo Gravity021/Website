@@ -1,0 +1,15 @@
+:root {
+    /* Primary colours */
+    --colour-primary-1: #FF2F2F;
+    --colour-primary-2: #FA0000;
+    --colour-primary-0: #BA0202;
+    --colour-primary-3: #8A0000;
+    --colour-primary-4: #460000;
+
+    /* Complementary colours */
+    --colour-complement-1: #28D828;
+    --colour-complement-2: #00C800;
+    --colour-complement-0: #029402;
+    --colour-complement-3: #006E00;
+    --colour-complement-4: #003800;
+}

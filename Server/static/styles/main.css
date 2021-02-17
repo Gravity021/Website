@@ -2,7 +2,9 @@
 body {
     font-family: 'Open Sans';
 
-    background-color: #00ABAB;
+    background-color: #00C800;
+
+    color: #ffffff;
 }
 
 /* Custom classes */
@@ -16,14 +18,14 @@ body {
 
 .game {
     display: inline-block;
-    background-color: #00A500;
+    background-color: #FF2F2F;
     padding: 10px;
     padding-top: 5px;
     border-radius: 8px;
 }
 
 .game-title {
-    background-color: #007D00;
+    background-color: #00ffff;
     padding: 10px;
     border-radius: 5px;
 

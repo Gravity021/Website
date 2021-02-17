@@ -23,3 +23,33 @@ https://paletton.com/#uid=4000u0kFwpOmyAa-4ABLOjBTBbF
 .color-complement-0 { color: #00A500 }	/* Main Complement color */
 .color-complement-3 { color: #007D00 }
 .color-complement-4 { color: #004A00 }
+
+-------------------------------------------------------------------------------
+
+--spring-green: #00ff7f;
+--medium-spring-green: #00ffa9;
+--sea-green-crayola: #00ffd4;
+--aqua: #00ffff;
+--vivid-sky-blue: #00d4ff;
+
+-------------------------------------------------------------------------------
+
+--vivid-sky-blue: #07c8f9;
+--blue-jeans: #09a6f3;
+--bleu-de-france: #0a85ed;
+--flickr-blue: #0c63e7;
+--blue-ryb: #0d41e1;
+
+-------------------------------------------------------------------------------
+
+.color-primary-1 { color: #FF2F2F }
+.color-primary-2 { color: #FA0000 }
+.color-primary-0 { color: #BA0202 }	/* Main Primary color */
+.color-primary-3 { color: #8A0000 }
+.color-primary-4 { color: #460000 }
+
+.color-complement-1 { color: #28D828 }
+.color-complement-2 { color: #00C800 }
+.color-complement-0 { color: #029402 }	/* Main Complement color */
+.color-complement-3 { color: #006E00 }
+.color-complement-4 { color: #003800 }

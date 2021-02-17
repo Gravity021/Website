@@ -1,13 +1,13 @@
 a.button {
     text-align: center;
-    background-color: #A1F100;
+    background-color: #09a6f3;
     border-radius: 2px;
     padding: 5px;
     width: 100px;
 }
 
 a.button:hover {
-    background-color: #619200;
+    background-color: #00ffa9;
 }
 
 .plain-link {
@@ -36,7 +36,7 @@ a.button:hover {
 
 .social-links-wrap {
     display: inline-block;
-    background-color: #00A500;
+    background-color: #FF2F2F;
     padding: 10px;
     padding-top: 15px;
     border-radius: 5px;
