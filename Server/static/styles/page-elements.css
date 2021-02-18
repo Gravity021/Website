@@ -59,6 +59,16 @@
     transition: ease 0.5s;
 }
 
+.projects .game .game-description {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
 .game .game-hover:hover > .game-logo {
     opacity: .5;
 }
