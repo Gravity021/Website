@@ -45,6 +45,14 @@
     border-radius: 5px;
 }
 
+.bio p {
+    font-size: 125%;
+}
+
+.page-description p {
+    font-size: 115%;
+}
+
 .footer a.button {
     background-color: #4DA8DA;
     border-radius: 3px;

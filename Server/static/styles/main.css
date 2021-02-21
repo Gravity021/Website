@@ -1,26 +1,7 @@
-:root {
-    --neon-green: #22ee22ff;
-    --spring-green: #22ee66ff;
-    --medium-spring-green: #22ee99ff;
-    --sea-green-crayola: #22eebbff;
-    --fluorescent-blue: #22eeeeff;
-}
-
-/* Predefined areas */
 body {
     font-family: 'Open Sans';
 
-    /* background-color: var(--medium-spring-green); */
     background-color: #4DA8DA;
 
     color: #ffffff;
-}
-
-/* Custom classes */
-.bio p {
-    font-size: 125%;
-}
-
-.page-description p {
-    font-size: 115%;
 }
