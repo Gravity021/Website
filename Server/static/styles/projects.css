@@ -24,20 +24,9 @@
 }
 
 .game .game-description {
-    /* position: relative;
-    top: 102%;
-    left: 50%;
-    transform: translate(-50%, 0); */
-
-    opacity: 0;
-    transition: ease 0.5s;
-}
-
-.game .game-description {
-    position: absolute;
-    top: 102%;
-    left: 50%;
-    transform: translate(-50%, -200%);
+    position: relative;
+    top: -175px;
+    margin-bottom: -75px;
 
     opacity: 0;
     transition: ease 0.5s;
@@ -49,4 +38,10 @@
 
 .game .game-hover:hover > .game-description {
     opacity: 1;
+}
+
+.spacer {
+    display: inline-block;
+
+    padding: 15px;
 }
