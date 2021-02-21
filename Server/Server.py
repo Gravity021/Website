@@ -14,6 +14,10 @@ def about():
 def projects():
     return flask.render_template("projects.html")
 
+@app.route("/testing")
+def testing():
+    return flask.render_template("testing.html")
+
 if __name__ == "__main__":
     app.run(
         host="0.0.0.0", 
