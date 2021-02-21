@@ -1,0 +1,52 @@
+.game {
+    display: inline-block;
+    background-color: #203647;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 8px;
+}
+
+.game-title {
+    background-color: #12232E;
+    padding: 10px;
+    border-radius: 5px;
+
+    transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
+}
+
+.game-title:hover {
+    transform: translate(0px, -3px);
+}
+
+.game-logo {
+    opacity: 1;
+    transition: ease 0.5s;
+}
+
+.game .game-description {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.game .game-description {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.game .game-hover:hover > .game-logo {
+    opacity: .5;
+}
+
+.game .game-hover:hover > .game-description {
+    opacity: 1;
+}

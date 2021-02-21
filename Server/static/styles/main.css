@@ -24,23 +24,3 @@ body {
 .page-description p {
     font-size: 115%;
 }
-
-.game {
-    display: inline-block;
-    background-color: #203647;
-    padding: 10px;
-    padding-top: 5px;
-    border-radius: 8px;
-}
-
-.game-title {
-    background-color: #12232E;
-    padding: 10px;
-    border-radius: 5px;
-
-    transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
-}
-
-.game-title:hover {
-    transform: translate(0px, -3px);
-}
