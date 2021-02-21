@@ -10,7 +10,8 @@
 body {
     font-family: 'Open Sans';
 
-    background-color: var(--medium-spring-green);
+    /* background-color: var(--medium-spring-green); */
+    background-color: #4DA8DA;
 
     color: #ffffff;
 }
@@ -26,14 +27,14 @@ body {
 
 .game {
     display: inline-block;
-    background-color: var(--spring-green);
+    background-color: #203647;
     padding: 10px;
     padding-top: 5px;
     border-radius: 8px;
 }
 
 .game-title {
-    background-color: var(--neon-green);
+    background-color: #12232E;
     padding: 10px;
     border-radius: 5px;
 

@@ -8,7 +8,8 @@
 
 a.button {
     text-align: center;
-    background-color: var(--sea-green-crayola);
+    color: #FFFFFF;
+    background-color: #007CC7;
     border-radius: 2px;
     padding: 5px;
     width: 100px;
@@ -16,7 +17,8 @@ a.button {
 }
 
 a.button:hover {
-    background-color: var(--fluorescent-blue);
+    background-color: #EEFBFB;
+    color: #000000;
 }
 
 .plain-link {
@@ -45,7 +47,7 @@ a.button:hover {
 
 .social-links-wrap {
     display: inline-block;
-    background-color: var(--spring-green);
+    background-color: #203647;
     padding: 10px;
     padding-top: 15px;
     border-radius: 5px;
