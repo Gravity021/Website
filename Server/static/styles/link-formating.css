@@ -1,11 +1,3 @@
-:root {
-    --neon-green: #22ee22ff;
-    --spring-green: #22ee66ff;
-    --medium-spring-green: #22ee99ff;
-    --sea-green-crayola: #22eebbff;
-    --fluorescent-blue: #22eeeeff;
-}
-
 a.button {
     text-align: center;
     color: #FFFFFF;
@@ -45,7 +37,7 @@ a.button:hover {
     transform: translate(0px, -10px);
 }
 
-.social-links-wrap {
+.social-links {
     display: inline-block;
     background-color: #203647;
     padding: 10px;
