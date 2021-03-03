@@ -1,4 +1,4 @@
-.game {
+.project {
     display: inline-block;
     background-color: #203647;
     padding: 10px;
@@ -6,7 +6,7 @@
     border-radius: 8px;
 }
 
-.game-title {
+.project-title {
     background-color: #12232E;
     padding: 10px;
     border-radius: 5px;
@@ -14,16 +14,16 @@
     transition: transform 0.2s cubic-bezier(.3, -0.58, .72, 1.52);
 }
 
-.game-title:hover {
+.project-title:hover {
     transform: translate(0px, -3px);
 }
 
-.game-logo {
+.project-logo {
     opacity: 1;
     transition: ease 0.5s;
 }
 
-.game .game-description {
+.project .project-description {
     position: relative;
     top: -175px;
     margin-bottom: -75px;
@@ -32,11 +32,11 @@
     transition: ease 0.5s;
 }
 
-.game .game-hover:hover > .game-logo {
+.project .project-hover:hover > .project-logo {
     opacity: .5;
 }
 
-.game .game-hover:hover > .game-description {
+.project .project-hover:hover > .project-description {
     opacity: 1;
 }
 
